@@ -391,7 +391,7 @@ U 1 1 58804558
 P 5550 3950
 F 0 "U1" H 5725 5365 50  0000 C CNN
 F 1 "USB2640-HZH-02" H 5725 5274 50  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm" H 7500 4050 50  0001 C CNN
+F 2 "mux-footprints:QFN-48-1EP_7x7mm_Pitch0.5mm" H 7500 4050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2138035.pdf?_ga=1.187806955.291132730.1474618953" H 7500 4050 50  0001 C CNN
 F 4 "http://pl.farnell.com/microchip/usb2640-hzh-02/ic-usb-2-flash-media-cntrl-48vqfn/dp/2292611" H 5550 3950 60  0001 C CNN "Shop link"
 F 5 "14.71" H 5550 3950 60  0001 C CNN "Price"
@@ -405,7 +405,7 @@ U 2 1 58804560
 P 4200 9300
 F 0 "U1" H 4200 10415 50  0000 C CNN
 F 1 "USB2640-HZH-02" H 4200 10324 50  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm" H 6150 9400 50  0001 C CNN
+F 2 "mux-footprints:QFN-48-1EP_7x7mm_Pitch0.5mm" H 6150 9400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2138035.pdf?_ga=1.187806955.291132730.1474618953" H 6150 9400 50  0001 C CNN
 F 4 "http://pl.farnell.com/microchip/usb2640-hzh-02/ic-usb-2-flash-media-cntrl-48vqfn/dp/2292611" H 4200 9300 60  0001 C CNN "Shop link"
 F 5 "14.71" H 4200 9300 60  0001 C CNN "Price"
@@ -1017,7 +1017,7 @@ U 1 1 58838D1F
 P 9900 8250
 F 0 "U3" H 10350 8850 50  0000 C CNN
 F 1 "FT200XD" H 10300 8750 50  0000 C CNN
-F 2 "Housings_DFN_QFN:DFN-10-1EP_3x3mm_Pitch0.5mm" H 9900 8936 50  0001 C CNN
+F 2 "mux-footprints:DFN-10-1EP_3x3mm_Pitch0.5mm" H 9900 8936 50  0001 C CNN
 F 3 "http://www.tme.eu/pl/Document/8125c2e118ba8e97fd6be18cfe334069/DS_FT200XD.pdf" H 9900 8250 50  0001 C CNN
 F 4 "http://www.tme.eu/pl/details/ft200xd-t/uklady-scalone-interfejs-usb/ftdi/" H 9900 8250 60  0001 C CNN "Shop link"
 F 5 "FT200XD-T" H 9900 8250 60  0001 C CNN "Symbol"
@@ -1527,7 +1527,7 @@ U 1 1 5887FAFB
 P 2600 8900
 F 0 "Y1" V 2450 8800 50  0000 L CNN
 F 1 "24MHz" V 2250 8800 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm" H 2791 8809 50  0001 L CNN
+F 2 "mux-footprints:Crystal_SMD_2520-4pin_2.5x2.0mm" H 2791 8809 50  0001 L CNN
 F 3 "http://www.tme.eu/pl/Document/43d4b8b2418f10b1847f5f6593a9a63f/cfpx-218.pdf" H 2791 8809 50  0001 L CNN
 F 4 "http://www.tme.eu/pl/details/24.00m-cfpx218/rezonatory-kwarcowe-smd/iqd-frequency-products/lfxtal053106bulk/" H 2600 8900 60  0001 C CNN "Shop link"
 F 5 "LFXTAL053106BULK" H 2600 8900 60  0001 C CNN "Symbol"
@@ -1592,15 +1592,15 @@ Wire Wire Line
 $Comp
 L SDWire:LED_ALT D3
 U 1 1 5883505B
-P 14050 2500
-F 0 "D3" H 14088 2382 50  0000 R CNN
-F 1 "BLUE" H 14500 2550 50  0000 R CNN
-F 2 "LEDs:LED_0402" H 14050 2500 50  0001 C CNN
-F 3 "http://www.tme.eu/pl/Document/1af677b42c0c7d60f99d6fa71eb6bc05/KPG-1005PBC-TT-5MAV(Ver.1B).pdf" H 14050 2500 50  0001 C CNN
-F 4 "http://www.tme.eu/pl/details/kpg-1005pbc-tt/diody-led-smd-kolorowe/kingbright-electronic/kpg-1005pbc-tt-5mav/" V 14050 2500 60  0001 C CNN "Shop link"
-F 5 "KPG-1005PBC-TT-5MAV" H 14050 2500 60  0001 C CNN "Symbol"
-F 6 "0.6482" H 14050 2500 60  0001 C CNN "Price"
-	1    14050 2500
+P 14050 3550
+F 0 "D3" H 14088 3432 50  0000 R CNN
+F 1 "BLUE" H 14500 3600 50  0000 R CNN
+F 2 "LEDs:LED_0402" H 14050 3550 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/1af677b42c0c7d60f99d6fa71eb6bc05/KPG-1005PBC-TT-5MAV(Ver.1B).pdf" H 14050 3550 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/kpg-1005pbc-tt/diody-led-smd-kolorowe/kingbright-electronic/kpg-1005pbc-tt-5mav/" V 14050 3550 60  0001 C CNN "Shop link"
+F 5 "KPG-1005PBC-TT-5MAV" H 14050 3550 60  0001 C CNN "Symbol"
+F 6 "0.6482" H 14050 3550 60  0001 C CNN "Price"
+	1    14050 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1652,38 +1652,22 @@ Connection ~ 2250 1250
 $Comp
 L SDWire:LED_ALT D4
 U 1 1 5883DBC6
-P 14050 3550
-F 0 "D4" H 14088 3432 50  0000 R CNN
-F 1 "GREEN" H 14550 3600 50  0000 R CNN
-F 2 "LEDs:LED_0402" H 14050 3550 50  0001 C CNN
-F 3 "http://www.tme.eu/pl/Document/a570188e37a4e1932c6f215ea3ff9ddc/KPG-1005VGC-TT-5MAV(Ver.1B).pdf" H 14050 3550 50  0001 C CNN
-F 4 "http://www.tme.eu/pl/details/kpg-1005vgc-tt/diody-led-smd-kolorowe/kingbright-electronic/kpg-1005vgc-tt-5mav/" V 14050 3550 60  0001 C CNN "Shop link"
-F 5 "KPG-1005VGC-TT-5MAV" H 14050 3550 60  0001 C CNN "Symbol"
-F 6 "0.7558" H 14050 3550 60  0001 C CNN "Price"
-	1    14050 3550
+P 14050 2500
+F 0 "D4" H 14088 2382 50  0000 R CNN
+F 1 "GREEN" H 14550 2550 50  0000 R CNN
+F 2 "LEDs:LED_0402" H 14050 2500 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/a570188e37a4e1932c6f215ea3ff9ddc/KPG-1005VGC-TT-5MAV(Ver.1B).pdf" H 14050 2500 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/kpg-1005vgc-tt/diody-led-smd-kolorowe/kingbright-electronic/kpg-1005vgc-tt-5mav/" V 14050 2500 60  0001 C CNN "Shop link"
+F 5 "KPG-1005VGC-TT-5MAV" H 14050 2500 60  0001 C CNN "Symbol"
+F 6 "0.7558" H 14050 2500 60  0001 C CNN "Price"
+	1    14050 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L SDWire:R R12
 U 1 1 58841418
-P 13650 2500
-F 0 "R12" V 13550 2500 50  0000 C CNN
-F 1 "1K" V 13750 2500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 13580 2500 30  0001 C CNN
-F 3 "http://www.tme.eu/pl/Document/1a2bc76e2be68b3b1670068306778ce6/rc0402yageo.pdf" H 13650 2500 30  0001 C CNN
-F 4 "http://www.tme.eu/pl/details/rc0402fr-071k/rezystory-smd-0402/yageo/" V 13650 2500 60  0001 C CNN "Shop link"
-F 5 "RC0402FR-071K" H 13650 2500 60  0001 C CNN "Symbol"
-F 6 "0.02375" H 13650 2500 60  0001 C CNN "Price"
-	1    13650 2500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13800 2500 13850 2500
-$Comp
-L SDWire:R R13
-U 1 1 58842A16
 P 13650 3550
-F 0 "R13" V 13550 3550 50  0000 C CNN
+F 0 "R12" V 13550 3550 50  0000 C CNN
 F 1 "1K" V 13750 3550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 13580 3550 30  0001 C CNN
 F 3 "http://www.tme.eu/pl/Document/1a2bc76e2be68b3b1670068306778ce6/rc0402yageo.pdf" H 13650 3550 30  0001 C CNN
@@ -1695,68 +1679,82 @@ F 6 "0.02375" H 13650 3550 60  0001 C CNN "Price"
 $EndComp
 Wire Wire Line
 	13800 3550 13850 3550
+$Comp
+L SDWire:R R13
+U 1 1 58842A16
+P 13650 2500
+F 0 "R13" V 13550 2500 50  0000 C CNN
+F 1 "1K" V 13750 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 13580 2500 30  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/1a2bc76e2be68b3b1670068306778ce6/rc0402yageo.pdf" H 13650 2500 30  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/rc0402fr-071k/rezystory-smd-0402/yageo/" V 13650 2500 60  0001 C CNN "Shop link"
+F 5 "RC0402FR-071K" H 13650 2500 60  0001 C CNN "Symbol"
+F 6 "0.02375" H 13650 2500 60  0001 C CNN "Price"
+	1    13650 2500
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	14300 3550 14200 3550
+	13800 2500 13850 2500
 Wire Wire Line
-	14300 2250 14300 2500
+	14300 2500 14200 2500
 Wire Wire Line
-	14200 2500 14300 2500
-Connection ~ 14300 2500
+	14300 2500 14300 3550
+Wire Wire Line
+	14200 3550 14300 3550
+Connection ~ 14300 3550
 $Comp
 L SDWire:+3V3 #PWR043
 U 1 1 58843207
-P 14300 2250
-F 0 "#PWR043" H 14300 2100 50  0001 C CNN
-F 1 "+3V3" H 14300 2390 50  0000 C CNN
-F 2 "" H 14300 2250 60  0000 C CNN
-F 3 "" H 14300 2250 60  0000 C CNN
-	1    14300 2250
+P 14300 2050
+F 0 "#PWR043" H 14300 1900 50  0001 C CNN
+F 1 "+3V3" H 14300 2190 50  0000 C CNN
+F 2 "" H 14300 2050 60  0000 C CNN
+F 3 "" H 14300 2050 60  0000 C CNN
+	1    14300 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L SDWire:LED_ALT D7
 U 1 1 58844702
-P 14050 2750
-F 0 "D7" H 14088 2632 50  0000 R CNN
-F 1 "BLUE" H 14500 2800 50  0000 R CNN
-F 2 "LEDs:LED_0402" H 14050 2750 50  0001 C CNN
-F 3 "http://www.tme.eu/pl/Document/1af677b42c0c7d60f99d6fa71eb6bc05/KPG-1005PBC-TT-5MAV(Ver.1B).pdf" H 14050 2750 50  0001 C CNN
-F 4 "http://www.tme.eu/pl/details/kpg-1005pbc-tt/diody-led-smd-kolorowe/kingbright-electronic/kpg-1005pbc-tt-5mav/" V 14050 2750 60  0001 C CNN "Shop link"
-F 5 "KPG-1005PBC-TT-5MAV" H 14050 2750 60  0001 C CNN "Symbol"
-F 6 "0.6482" H 14050 2750 60  0001 C CNN "Price"
-	1    14050 2750
+P 14050 3800
+F 0 "D7" H 14088 3682 50  0000 R CNN
+F 1 "BLUE" H 14500 3850 50  0000 R CNN
+F 2 "LEDs:LED_0402" H 14050 3800 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/1af677b42c0c7d60f99d6fa71eb6bc05/KPG-1005PBC-TT-5MAV(Ver.1B).pdf" H 14050 3800 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/kpg-1005pbc-tt/diody-led-smd-kolorowe/kingbright-electronic/kpg-1005pbc-tt-5mav/" V 14050 3800 60  0001 C CNN "Shop link"
+F 5 "KPG-1005PBC-TT-5MAV" H 14050 3800 60  0001 C CNN "Symbol"
+F 6 "0.6482" H 14050 3800 60  0001 C CNN "Price"
+	1    14050 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14200 2750 14300 2750
-Connection ~ 14300 2750
+	14200 3800 14300 3800
 Wire Wire Line
-	13900 2750 13850 2750
+	13900 3800 13850 3800
 Wire Wire Line
-	13850 2750 13850 2500
-Connection ~ 13850 2500
+	13850 3800 13850 3550
+Connection ~ 13850 3550
 $Comp
 L SDWire:LED_ALT D8
 U 1 1 588469C5
-P 14050 3300
-F 0 "D8" H 14088 3182 50  0000 R CNN
-F 1 "GREEN" H 14550 3350 50  0000 R CNN
-F 2 "LEDs:LED_0402" H 14050 3300 50  0001 C CNN
-F 3 "http://www.tme.eu/pl/Document/a570188e37a4e1932c6f215ea3ff9ddc/KPG-1005VGC-TT-5MAV(Ver.1B).pdf" H 14050 3300 50  0001 C CNN
-F 4 "http://www.tme.eu/pl/details/kpg-1005vgc-tt/diody-led-smd-kolorowe/kingbright-electronic/kpg-1005vgc-tt-5mav/" V 14050 3300 60  0001 C CNN "Shop link"
-F 5 "KPG-1005VGC-TT-5MAV" H 14050 3300 60  0001 C CNN "Symbol"
-F 6 "0.7558" H 14050 3300 60  0001 C CNN "Price"
-	1    14050 3300
+P 14050 2250
+F 0 "D8" H 14088 2132 50  0000 R CNN
+F 1 "GREEN" H 14550 2300 50  0000 R CNN
+F 2 "LEDs:LED_0402" H 14050 2250 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/a570188e37a4e1932c6f215ea3ff9ddc/KPG-1005VGC-TT-5MAV(Ver.1B).pdf" H 14050 2250 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/kpg-1005vgc-tt/diody-led-smd-kolorowe/kingbright-electronic/kpg-1005vgc-tt-5mav/" V 14050 2250 60  0001 C CNN "Shop link"
+F 5 "KPG-1005VGC-TT-5MAV" H 14050 2250 60  0001 C CNN "Symbol"
+F 6 "0.7558" H 14050 2250 60  0001 C CNN "Price"
+	1    14050 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13900 3300 13850 3300
+	13900 2250 13850 2250
 Wire Wire Line
-	13850 3300 13850 3550
-Connection ~ 13850 3550
+	13850 2250 13850 2500
+Connection ~ 13850 2500
 Wire Wire Line
-	14200 3300 14300 3300
-Connection ~ 14300 3300
+	14200 2250 14300 2250
 $Comp
 L SDWire:LED_ALT D6
 U 1 1 58849DC5
@@ -1905,15 +1903,13 @@ Wire Wire Line
 Wire Wire Line
 	2250 1250 2550 1250
 Wire Wire Line
-	14300 2500 14300 2750
-Wire Wire Line
-	14300 2750 14300 3300
-Wire Wire Line
-	13850 2500 13900 2500
+	14300 3550 14300 3800
 Wire Wire Line
 	13850 3550 13900 3550
 Wire Wire Line
-	14300 3300 14300 3550
+	13850 2500 13900 2500
+Wire Wire Line
+	14300 2250 14300 2500
 Wire Wire Line
 	5700 8700 5750 8700
 Wire Wire Line
@@ -1956,7 +1952,7 @@ Wire Wire Line
 	11400 3200 12250 3200
 Wire Wire Line
 	11400 2150 12250 2150
-Text Label 12350 2500 2    60   ~ 0
+Text Label 11700 3900 2    60   ~ 0
 ~CD_TS
 $Comp
 L SDWire:R R10
@@ -2160,4 +2156,8 @@ Wire Wire Line
 Connection ~ 11150 2850
 Wire Wire Line
 	12100 2850 12350 2850
+Connection ~ 14300 2500
+Wire Wire Line
+	14300 2050 14300 2250
+Connection ~ 14300 2250
 $EndSCHEMATC
