@@ -53,7 +53,7 @@ jobs:
       - uses: jiro4989/build-deb-action@v3
         with:
           package: ${{ env.APP_NAME }}
-          package_root: .debpkg
+          package_root: debian
           maintainer: ${{ env.MAINTAINER }}
           version: ${{ github.ref }}
           arch: 'amd64'
@@ -63,7 +63,7 @@ jobs:
         with:
           summary: '${{ env.DESC }}'
           package: ${{ env.APP_NAME }}
-          package_root: .rpmpkg
+          package_root: packaging
           maintainer: ${{ env.MAINTAINER }}
           version: ${{ github.ref }}
           arch: 'x86_64'
