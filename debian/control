@@ -1,11 +1,11 @@
 Source: sd-mux-ctrl
-Maintainer: Adam Malinowski <a.malinowsk2@partner.samsung.com>
+Maintainer: Tim Orling <tim.orling@konsulko.com>
 Section: utils
 Priority: optional
 Build-Depends:
  bash-completion,
  cmake,
- debhelper (>=9),
+ debhelper (>=10),
  libftdi1-dev (>= 1.4),
  libpopt-dev,
  pkg-config
