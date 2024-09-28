@@ -18,9 +18,9 @@
 
 ############################# Check minimum CMake version #####################
 
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8.3)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.12.4)
 PROJECT("sd-mux-ctrl")
-set(SDMUXCTRL_VERSION 0.0.1)
+set(SDMUXCTRL_VERSION 0.0.3)
 
 ############################# cmake packages ##################################
 
